@@ -1,0 +1,20 @@
+packages:                # keeps pnpm 9 treating this as a project (e.g. Vercel's default)
+  - '.'
+onlyBuiltDependencies:   # pnpm 10
+  - "@biomejs/biome"
+  - "@tailwindcss/oxide"
+  - better-sqlite3
+  - core-js
+  - esbuild
+  - protobufjs
+  - sharp
+  - workerd
+allowBuilds:             # pnpm 11
+  "@biomejs/biome": true
+  "@tailwindcss/oxide": true
+  better-sqlite3: true
+  core-js: true
+  esbuild: true
+  protobufjs: true
+  sharp: true
+  workerd: true
